@@ -3,6 +3,10 @@
 A clean and simple HTML Canvas physics simulation written in pure JavaScript.  
 Multiple balls fall with gravity, collide realistically, slide with friction, display their velocity as arrows, and increment a live collision counter.
 
+## Showcase
+<img width="731" height="632" alt="image" src="https://github.com/user-attachments/assets/fa8851c1-4800-4eb8-bb4a-895ac5da6156" />
+
+
 ## Features
 - Gravity-based movement  
 - Realistic elastic collisions (with friction and impulse)  
