@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <style>
+        #canvas {
+            border: 1px solid black;
+            display: block;
+            margin: 0 auto;
+            background-color: #ddd;
+        }
+        body {
+            width: 30%;
+            margin: 0 auto;
+            background-color: #2e2d2d;
+            color: aliceblue;
+            font-family: system-ui, sans-serif;
+        }
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            background-color: beige;
+            color: black;
+            font-weight: 700;
+            font-family: system-ui, sans-serif;
+            border-radius: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+            <h1>2D JavaScript Physics Engine</h1>
+    </main>
+
+    <canvas id="canvas" tabindex="0" width="640" height="480"></canvas>
+    <button class="btn" onclick="spawnBall()">Spawn</button>
+    <button class="btn" onclick="resetAll()">Delete</button>
+    <script src="index.js"></script>
+</body>
+</html>
